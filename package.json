@@ -1,0 +1,27 @@
+{
+  "name": "disaster-management",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "nodemon backend/server.js",
+    "start:frontend": "vite frontend",
+    "build:frontend": "vite build frontend"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "D": "^1.0.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "firebase": "^12.19.0",
+    "firebase-admin": "^14.5.0",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.14",
+    "npm": "^12.1.0",
+    "react-router-dom": "^7.18.4",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1"
+  }
+}
