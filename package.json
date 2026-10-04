@@ -4,7 +4,8 @@
   "scripts": {
     "start:backend": "nodemon backend/server.js",
     "start:frontend": "vite frontend",
-    "build:frontend": "vite build frontend"
+    "build:frontend": "vite build frontend",
+    "build": "vite build frontend"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
